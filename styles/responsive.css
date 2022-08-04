@@ -1,0 +1,69 @@
+@media screen and (max-width: 1000px) {
+  div.header {
+    border-radius:0px;
+	align-items:center;
+  }
+	
+	.loginsign img{
+		height:10vw;
+	}
+
+  .container{
+	  flex-direction:column;
+	  background-color:transparent;
+	  align-items:center;
+	  padding:15px;
+	  align-items:center;
+	  margin-top:1vw;
+	  
+  }
+  
+  .admin, .student, .newadm{
+	  width:44vw;
+	  margin:13px;
+	  height:150px;
+	  align-items:center;
+  }
+  .brand, .loginsign::before, .loginsign{
+	  font-size:8vw;
+	  padding:10px;
+  }
+  .bot{
+	  letter-spacing:initial;
+  }
+  
+  div.formcontainer{
+	  width:80%;
+	  margin-top:20vh;
+	  
+  }
+  
+  div.credform{
+  display:flex;
+  flex-direction: column;
+  width:270px;
+  margin:auto;
+	}
+	form.cred input{
+  width:100%;
+  padding:13px 6px;
+  margin:25px 0;
+  border:1px solid #dbdbdb;
+  border-radius:4px;
+  font-size:12px;
+  font-weight:lighter;
+	}
+	form.cred input[type="submit"]{
+  background-color: #0095f6;
+  color:white;
+  padding:8px 0;
+  font-size:13px;
+  opacity:0.5;
+  padding:8px 0;
+  font-size:15px;
+  font-weight:bold;
+      display: block;
+    width: 80%;
+    margin: auto;
+	}
+}

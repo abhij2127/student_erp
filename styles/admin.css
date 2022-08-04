@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  background-color:#202020;
+  margin:0;
+  padding:0;
+}
+
+/*styles of sidebar*/
+
+.sdbr{
+	width:15%;
+	position:fixed;
+	height:100vh;
+	background-color:#191919;
+	color:white;
+	box-shadow:3px 2px 7px rgba(0, 0, 0, 0.5);
+	top:0;
+	left:0;
+	
+}
+
+.hdad{
+	border-bottom:2px solid white;
+	padding:32px 0px;
+	text-align:center;
+	font-weight:bold;
+	 font-size:24px;
+}
+
+
+.evryels li{
+	display:flex;
+	align-items:center;
+	margin-right:0.4rem;
+	padding:10px 10px;
+	font-size:20px;
+	cursor:pointer;
+	border-bottom:3px solid #202020;
+}
+
+.evryels li img{
+	margin:0 10px;
+}
+
+.evryels li:hover{
+	background-color:#202020;
+	color:white;
+}
+/*main container*/
+.mcont{
+	position:relative;
+	left:15%;
+	top:75px;
+	width:85%;
+}
+/*header*/
+
+.myhdr{
+  position:fixed;
+  top:0;
+  left:15%;
+  width:85%;
+  display: flex;
+  padding:33px;
+  justify-content: space-between;
+  background-color:#191919;
+  box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  z-index:2;
+  color:white;
+  font-size:24px;
+  position:sticky;
+}
+
+
+.lgout a{
+	text-decoration:none;
+	color:white;
+	padding:4px 6px;
+	border:2px solid white;
+	border-radius:3px;
+	font-size:20px;
+}
+
+.lgout a:hover{
+	background-color:white;
+	color:black;
+}
+
+/*coontent div*/
+.cont{
+	color:white;
+	margin: 45px 0px 41px 45px;
+}
+.table{
+	color:black;
+	width:fit-content;
+}
+
+.applicants,.students, .courses{
+	width:80%;
+	margin:auto;
+	margin-bottom:35px;
+	display:none;
+}
+
+.applicants{
+	display:block;
+}
+.applicants h2, .students h2, .courses h2{
+	padding: 5px 5px;
+    background-color: seagreen;
+    font-size: 3rem;
+    margin: 0;
+}
+/*styling data table*/
+
+.dataTables_wrapper{
+	background-color:#191919;
+	padding:30px;
+}
+
+#myTable_length, #studentTable_length, #courseTable_length{
+	color:white;
+}
+
+.dataTables_length select{
+	color:white;
+}
+
+.dataTables_length select option{
+	background-color:#191919
+}
+
+#myTable_filter, #studentTable_filter, #courseTable_filter{
+	color:white;
+}
+
+#myTable_filter input{
+	color:white;
+}
+#myTable thead, #studentTable thead, #courseTable thead{
+	color:white;
+	text-align:center;
+}
+
+#myTable tbody tr, #studentTable tbody tr, #courseTable tbody tr{
+	background-color:#202020;
+	color:white;
+}
+
+#myTable_info, #studentTable_info, #courseTable_info{
+	color:white;
+}
+
+#myTable_paginate, #studentTable_paginate, #courseTable_paginate{
+	color:white;
+}
+
+a.paginate_button, a.current{
+	background-color:#202020;
+	color:white;
+}
+
+/*No applicant alert*/
+
+.nap{
+	padding: 8px;
+    background-color: brown;
+    font-size: 19px;
+}
+
+.reject,.accept{
+	border: none;
+    border-collapse: collapse;
+    border-radius: 8px;
+    color: white;
+    padding: 3px 6px;
+    font-size: smaller;
+	margin:0px 10px;
+}
+.reject{
+	background-color:tomato;
+}
+
+.accept{
+	background-color:forestgreen;
+}
+
+.accept:hover{
+	background-color:darkgreen;
+}
+
+.reject:hover{
+	background-color: red;
+}
+
+.activeSdbar{
+	background-color:#202020;
+}
